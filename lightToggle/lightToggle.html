@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+var flip = false
+
+
+function light() {
+	flip = !flip
+    
+    var pic,text;
+    
+    if (flip) {
+        pic = "pic_bulbon.gif"
+        text = "Light Off"
+    } else {
+        pic = "pic_bulboff.gif"
+        text = "Light On"
+    }
+    document.getElementById('myImage').src = pic;
+    document.getElementById('mySwitch').innerHTML = text;
+}
+</script>
+
+<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+
+<p>
+<button type="button" id="mySwitch" onclick="light()">Light On</button>
+</p>
+
+</body>
+</html>
