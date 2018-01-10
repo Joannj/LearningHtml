@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(185,0,185,.9);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: magenta;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #BA55D3;
+    color: white;
+}
